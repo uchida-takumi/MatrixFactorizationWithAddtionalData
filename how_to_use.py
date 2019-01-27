@@ -1,18 +1,6 @@
-# MatrixFactorizationWithAddtionalData
-This is a Matrix Factorization which can learn not only user-item rating but also user attributes and item attributes.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-
-# Requirement
-python3
-
-numpy==1.14.5
-numpydoc==0.7.0
-
-# how to use
-
-please see how_to_use.py
-
-``` python
 
 # set training data
 user_ids = [1,1,1,1,5,5,8,8]
@@ -45,21 +33,3 @@ preidict = mf.predict(
             item_attributes=item_attributes
             )
 print(preidict)
-
-```
-
-
-# the refference article
-
-```
-@article{koren2009matrix,
-  title={Matrix factorization techniques for recommender systems},
-  author={Koren, Yehuda and Bell, Robert and Volinsky, Chris},
-  journal={Computer},
-  number={8},
-  pages={30--37},
-  year={2009},
-  publisher={IEEE}
-}
-
-```
